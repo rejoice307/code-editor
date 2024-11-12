@@ -1,0 +1,24 @@
+{
+  "name": "super-code",
+  "productName": "super-code",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "devDependencies": {
+    "@electron/fuses": "^1.7.0",
+    "@electron-forge/plugin-fuses": "^7.2.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "rejoice307",
+    "email": "kenil307.rejoice@gmail.com"
+  },
+  "license": "MIT"
+}
